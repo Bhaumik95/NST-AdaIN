@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+
+# Runtime uploads and outputs
+static/uploads/
+
+# Experiments: ignore everything except what we want to keep
+experiment/train_1/*
+!experiment/train_1/args.txt
+!experiment/train_1/checkpoint_epoch_135.pth
+!experiment/train_1/output_135.png
